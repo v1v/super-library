@@ -1,0 +1,10 @@
+*.sw*
+build/
+target/
+
+# IDEA
+.idea
+
+# Visual Studio Code
+.project
+.settings
