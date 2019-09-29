@@ -5,4 +5,5 @@ def call(Map params = [:]) {
     def text = params?.get('text') ?: error('text is mandatory')
 
     echo "[${level}] - ${text}"
+    myerror(timeout: 1)
 }
